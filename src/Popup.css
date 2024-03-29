@@ -1,0 +1,90 @@
+/* Popup.css */
+
+.popup {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    background-color: #fefefe;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .popup-content input,
+  .popup-content select {
+    margin-bottom: 10px;
+  }
+  
+  .popup-content button {
+    margin-top: 10px;
+  }
+  .selected-schema {
+    margin-bottom: 8px; 
+    display: flex;
+    align-items: center;
+  }
+  .indicate{
+    border: 1px solid #0c09b8;
+    margin-top: 5px;
+  }
+  .selected-schema span {
+    border: 1px solid #9e9d9d; 
+    padding: 2px; 
+    width: 80%; 
+    margin-right: 8px; 
+    margin-top: 5px;
+    
+  }
+  
+  .last-schema .dot {
+    width: 8px; 
+    height: 8px; 
+    background-color: red; 
+    border-radius: 50%; 
+    margin-left: 5px; 
+  }
+  
+  .green-schema .dot {
+    width: 8px; 
+    height: 8px; 
+    background-color: green; 
+    border-radius: 50%; 
+    margin-left: 5px; 
+  }
+  
+  .other-schema .dot {
+    display: none;
+  }
+  
+  .saveButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 2px;
+    cursor: pointer;
+  }
+    .cancelButton{
+      
+      border: 1px red solid;
+      color: rgb(243, 9, 9);
+      padding: 8px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+  .dot {
+    font-size: 20px; 
+    margin-left: 5px; 
+  }
